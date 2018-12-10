@@ -1,2 +1,4 @@
-FROM ALPINE
-ENTRYPOINT ["echo HELLO_FROM_DOCKER"]
+FROM ubuntu
+ENTRYPOINT ["top", "-b"]
+CMD ["-c"]
+
